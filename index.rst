@@ -22,8 +22,10 @@ However, it is possible to run Sailfish x86 on any standard x86 PC with a UEFI B
 and Ubuntu 20.04. However, it may need slight tweaks for the best experience.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: About
+   :name: sec-about
 
-
+   about/issue_tracking
+   about/limitations
 
