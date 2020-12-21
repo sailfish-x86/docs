@@ -1,4 +1,4 @@
-Preresiquites
+Prerequisites
 =============
 
 Make sure you satisfy all below requirements. If a requirement is not met, your device may not work well on Sailfish x86.
