@@ -11,7 +11,7 @@ a standard UEFI BIOS, with kernels, modules, and firmware from Ubuntu 20.04. The
 supported. However, slight configuration changes may be needed for some devices. 
 
 Sailfish x86 is maintained by Heng Ye, with help of the SailfishOS Porters community, on freenode and Telegram.
-Special thanks go to TheKit and Elros34.
+Special thanks go to TheKit and Elros34. The port is based on the Xiaomi Mi Pad 2 port, by Adam Pigg. 
 
 Current devices that are being configured for best experience are:
 
