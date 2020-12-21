@@ -3,8 +3,23 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Sailfish x86's documentation!
-========================================
+Sailfish x86 Documentation
+==========================
+
+Welcome to the documentation of Sailfish x86. Sailfish x86 is a port of Jolla's Sailfish OS for x86 computers with
+a standard UEFI BIOS, with kernels, modules, and firmware from Ubuntu 20.04. Therefore, many devices will be
+supported. However, slight configuration changes may be needed for some devices. 
+
+Sailfish x86 is maintained by Heng Ye, with help of the SailfishOS Porters community, on freenode and Telegram.
+Special thanks go to TheKit and Elros34.
+
+Current devices that are being configured for best experience are:
+
+- Asus Transformer Mini T103
+- Thinkpad X200T (Pen Only)
+
+However, it is possible to run Sailfish x86 on any standard x86 PC with a UEFI BIOS that supports the GRUB bootloader
+and Ubuntu 20.04. However, it may need slight tweaks for the best experience.
 
 .. toctree::
    :maxdepth: 2
@@ -12,9 +27,3 @@ Welcome to Sailfish x86's documentation!
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
