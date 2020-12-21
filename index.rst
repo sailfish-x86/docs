@@ -13,12 +13,7 @@ supported. However, slight configuration changes may be needed for some devices.
 Sailfish x86 is maintained by Heng Ye, with help of the SailfishOS Porters community, on freenode and Telegram.
 Special thanks go to TheKit and Elros34. The port is based on the Xiaomi Mi Pad 2 port, by Adam Pigg. 
 
-Current devices that are being configured for best experience are:
-
-- Asus Transformer Mini T103
-- Thinkpad X200T (Pen Only)
-
-However, it is possible to run Sailfish x86 on any standard x86 PC with a UEFI BIOS that supports the GRUB bootloader
+It is possible to run Sailfish x86 on any standard x86 PC with a UEFI BIOS that supports the GRUB bootloader
 and Ubuntu 20.04. However, it may need slight tweaks for the best experience.
 
 .. toctree::
@@ -27,5 +22,11 @@ and Ubuntu 20.04. However, it may need slight tweaks for the best experience.
    :name: sec-about
 
    about/issue_tracking
-   about/limitations
+   about/devices
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Installation
+   :name: sec-install
+
+   install/preresiquites
