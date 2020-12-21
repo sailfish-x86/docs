@@ -30,3 +30,4 @@ and Ubuntu 20.04. However, it may need slight tweaks for the best experience.
    :name: sec-install
 
    install/prerequisites
+   install/prep_media
