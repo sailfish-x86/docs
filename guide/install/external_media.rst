@@ -24,7 +24,7 @@ Create two partitions:
 Unpack the rootfs
 -----------------
 
-Mount the sfos_root partition. Obtain the rootfs tarball and extract it in the mountpoint. You should see the mountpoint populated with the standard Linux filesystem structure. 
+Mount the sfos_root partition. Obtain the rootfs tarball (https://github.com/sailfish-x86/rootfs/releases) and extract it in the mountpoint. You should see the mountpoint populated with the standard Linux filesystem structure. 
 
 Install the bootloader
 ----------------------
