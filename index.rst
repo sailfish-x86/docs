@@ -29,5 +29,5 @@ and Ubuntu 20.04. However, it may need slight tweaks for the best experience.
    :caption: Installation
    :name: sec-install
 
-   install/prerequisites
-   install/prep_media
+   guide/install/prerequisites
+   guide/install/external_media
