@@ -8,4 +8,5 @@ Known working devices
 
 - Asus Transformer Mini T103
 - Librebooted Thinkpad X200T
+- Dell XPS 15 2-in-1 9575
 
