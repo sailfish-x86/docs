@@ -1,9 +1,9 @@
 Issue tracking
 ==============
 
-GitLab is used for issue tracking. You will need a GitLab account to report issues.
+GitHub is used for issue tracking. You will need a GitHub account to report issues.
 
-- Issue tracker https://gitlab.com/sailfish-x86/sailfish-x86
+- Issue tracker https://github.com/sailfish-x86/rootfs
 
 Best practices when reporting issues
 ------------------------------------
