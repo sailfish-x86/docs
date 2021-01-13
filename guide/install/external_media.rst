@@ -37,7 +37,9 @@ Boot the system
 Shut down your device completely and insert your bootable medium. Then boot up your device and select your bootable medium in the UEFI/BIOS boot menu. If GRUB is already installed to the internal storage, you do not have to do this. When you get to GRUB, if there is a menu, hit ``c`` to get to a prompt. Type ``ls`` to list the disks that GRUB has detected. List the contents of each to find the disk that corresponds to your bootable medium with Sailfish x86. For example, ``ls (hd0,msdos1)/``. After you have found it, type ``root=DISK_NAME``, for example, ``root=(hd0,msdos1)``. Then boot with the following commands; you can use Tab completion to make it easier to type the paths.
 
     linux /boot/vmlinuz{TAB} root=/dev/disk/by-label/sfos_root
+
     initrd /boot/initrd{TAB}
+
     boot
 
 It should boot to the SailfishOS UI. 
