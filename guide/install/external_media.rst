@@ -13,33 +13,15 @@ This media must be bootable by your target device. Most devices accept USB drive
 
 All data on the media you select will be destroyed. Needless to say, make sure you back it up.
 
-Partitioning (UEFI)
--------------------
-
-Create two partitions:
-
-- EFI partition, FAT32 filesystem, marked as an EFI partition, 300MB. Label "EFI"
-- Root partition, Ext4 filesystem, rest of the disk. Label "sfos_root"
-
-Unpack the rootfs
------------------
-
-Mount the sfos_root partition. Obtain the rootfs tarball (https://github.com/sailfish-x86/rootfs/releases) and extract it in the mountpoint. You should see the mountpoint populated with the standard Linux filesystem structure. 
-
-Install the bootloader
-----------------------
-
-It is recommended to have the GRUB2 bootloader already installed to the internal storage of the device. However, if it is not, you can install GRUB2 to the USB drive. Make sure to use the ``--root-directory``, ``--boot-directory``, and ``--efi-directory`` options in ``grub-install`` to make sure you do not install to the wrong drive. 
-
-Boot the system
+Flash the image
 ---------------
 
-Shut down your device completely and insert your bootable medium. Then boot up your device and select your bootable medium in the UEFI/BIOS boot menu. If GRUB is already installed to the internal storage, you do not have to do this. When you get to GRUB, if there is a menu, hit ``c`` to get to a prompt. Type ``ls`` to list the disks that GRUB has detected. List the contents of each to find the disk that corresponds to your bootable medium with Sailfish x86. For example, ``ls (hd0,msdos1)/``. After you have found it, type ``root=DISK_NAME``, for example, ``root=(hd0,msdos1)``. Then boot with the following commands; you can use Tab completion to make it easier to type the paths.
+Use a tool such as Gnome-Disks or Balena Etcher to flash the disk image. If it does not support .img.bz2, decompress it and flash the .img file.
 
-    linux /boot/vmlinuz{TAB} root=/dev/disk/by-label/sfos_root
+The releases are here: https://github.com/sailfish-x86/rootfs/releases/
 
-    initrd /boot/initrd{TAB}
+Make sure to verify checksums.
 
-    boot
+Once you boot from the external medium it should boot to the SFOS UI.
 
-It should boot to the SailfishOS UI. 
+Note: Release 0.1 should not be used.
